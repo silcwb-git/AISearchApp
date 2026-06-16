@@ -34,4 +34,7 @@ qdrant_storage/
 
 # OS
 .DS_Store
-Thumbs.db
+Thumbs.db.env
+node_modules/
+bin/
+obj/
