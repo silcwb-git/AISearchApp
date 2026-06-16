@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "dgSpecHash": "+g/MBYMt2+0=",
+  "success": true,
+  "projectFilePath": "/Users/silcwb/AISearchApp/src/AISearchApp.WebAPI/AISearchApp.WebAPI.csproj",
+  "expectedPackageFiles": [
+    "/Users/silcwb/.nuget/packages/microsoft.aspnetcore.openapi/10.0.9/microsoft.aspnetcore.openapi.10.0.9.nupkg.sha512",
+    "/Users/silcwb/.nuget/packages/microsoft.extensions.apidescription.server/10.0.0/microsoft.extensions.apidescription.server.10.0.0.nupkg.sha512",
+    "/Users/silcwb/.nuget/packages/microsoft.extensions.logging/10.0.9/microsoft.extensions.logging.10.0.9.nupkg.sha512",
+    "/Users/silcwb/.nuget/packages/microsoft.openapi/2.7.5/microsoft.openapi.2.7.5.nupkg.sha512",
+    "/Users/silcwb/.nuget/packages/swashbuckle.aspnetcore/10.2.1/swashbuckle.aspnetcore.10.2.1.nupkg.sha512",
+    "/Users/silcwb/.nuget/packages/swashbuckle.aspnetcore.swagger/10.2.1/swashbuckle.aspnetcore.swagger.10.2.1.nupkg.sha512",
+    "/Users/silcwb/.nuget/packages/swashbuckle.aspnetcore.swaggergen/10.2.1/swashbuckle.aspnetcore.swaggergen.10.2.1.nupkg.sha512",
+    "/Users/silcwb/.nuget/packages/swashbuckle.aspnetcore.swaggerui/10.2.1/swashbuckle.aspnetcore.swaggerui.10.2.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference Microsoft.Extensions.Logging will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
+      "projectPath": "/Users/silcwb/AISearchApp/src/AISearchApp.WebAPI/AISearchApp.WebAPI.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/silcwb/AISearchApp/src/AISearchApp.WebAPI/AISearchApp.WebAPI.csproj",
+      "libraryId": "Microsoft.Extensions.Logging",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}
