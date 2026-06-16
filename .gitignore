@@ -1,3 +1,37 @@
-env
+# Variáveis de ambiente
+.env
 .env.local
-*.key
+.env.*.local
+
+# Node
+node_modules/
+dist/
+.npm
+
+# .NET
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.user
+*.suo
+.vs/
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# Qdrant
+qdrant_storage/
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
