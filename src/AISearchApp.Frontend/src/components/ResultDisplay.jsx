@@ -1,4 +1,4 @@
-import {} from 'react';
+import React from 'react';
 
 export default function ResultDisplay({ results }) {
   if (!results) return null;

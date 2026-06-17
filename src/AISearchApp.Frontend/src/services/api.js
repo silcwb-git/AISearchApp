@@ -10,11 +10,16 @@ const api = axios.create({
 });
 
 export const searchQuery = async (query) => {
-  const response = await api.post('/search', {
-    query: query,
-    topResults: 5,
-  });
-  return response.data;
+  try {
+    const response = await api.post('/search', {
+      query: query,
+      topResults: 5,
+    });
+    return response.data;
+  } catch (error) {
+    console.error('Erro ao buscar:', error);
+    throw error;
+  }
 };
 
 export default api;
